@@ -173,7 +173,7 @@ client.on("message", message => {
 	  message.delete();
 	  message.channel.send("Rebooting.").then(message => {
 		  client.destroy()
-		  client.login('NjgyNzE0MzIwODQ0NzUxMDUx.XlhBaQ.L4lk6dBx5JRjt-iiss3Ls7HsJBA').then(() => {
+		  client.login('bottoken').then(() => {
 				message.delete();
 		   });
 	  });
