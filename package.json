@@ -1,0 +1,30 @@
+{
+  "name": "Rusty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LordDamionDevil/rusty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LordDamionDevil/rusty/issues"
+  },
+  "homepage": "https://github.com/LordDamionDevil/rusty#readme",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "discord.js": "^12.0.1",
+	"node-opus": "^0.3.3",
+	"ytdl-core-discord": "^1.1.0",
+	"axios": "^0.19.2"
+  },
+  "engines": {
+    "node": "12.13.1"
+  }
+}
